@@ -1,0 +1,111 @@
+@media only screen and (max-width:2000px){
+	body{
+		font-family: 'Raleway','KoHo',sans-serif;
+		font-size: 14px;
+	}
+
+	li div.side-menu-items.active{
+		color:red;
+	}
+
+	li div.side-menu-items{
+		cursor:pointer;
+	}
+
+	.col-5{
+		max-width:46%;
+	}
+
+	#suggestions hr{
+		padding:0;
+		margin:0;
+		margin-bottom:5px;
+	}
+
+	tbody tr:hover{
+		cursor: pointer;
+		background-color: cadetblue;
+	}
+
+	.side-menu-items{
+		cursor:pointer;
+	}
+
+	a{
+		color:#000;
+		cursor:pointer;
+	}
+
+	.nav-item{
+		padding:0 37px;
+	}
+
+	.navbar .dropdown-menu {
+	    position: absolute!important;
+	    margin-top: 0;
+	    top: 4em;
+	    left: 109em;
+	}
+
+	.nav-item .nav-link i{
+		padding-left:10px;
+	}
+
+	h3{
+		font-size:18px;
+	}
+
+	h4{
+		font-size: 16px;
+	}
+
+	.col-12{
+		margin:0;
+		padding:0;
+	}
+
+	.icontext{
+		margin-top: 10px;
+	}
+
+	ul .nav-link i.fa{
+		padding-left: 20px;
+	}
+
+	#sidebar-wrapper{
+		height:90vh;
+		padding:10px;
+		padding-top:15px;
+		border-right:1px solid #eee;
+		overflow: scroll;
+	}
+
+	#sidebar-wrapper h4{
+		font-size:14px;
+		padding:15px 10px;
+		font-weight:500;
+		border-bottom:solid 1px #ddd
+	}
+
+	#sidebar-wrapper .side-menu-items{
+		padding: 10px 0;
+	}
+
+	#sidebar-wrapper .material-icons{
+		width: 100%;
+		font-size: 20px;
+		padding: 0;
+	}
+
+	#sidebar-wrapper span{
+		font-size: 12px;
+	}
+
+	#sidebar-wrapper{}
+
+	#sidebar-wrapper{}
+
+	#topbar-wrapper{
+		height:100vh;padding:0;margin:0;overflow:hidden;
+	}
+}

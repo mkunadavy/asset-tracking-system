@@ -1,0 +1,244 @@
+@media only screen and (max-width:2000px){
+	body{
+		font-family: 'Raleway','KoHo',sans-serif;
+		font-size: 14px;
+		text-shadow: 0 0 black;
+	}
+
+	div.side-menu-items.active{
+		color:#dd3652;
+	}
+
+	li div.side-menu-items{
+		cursor:pointer;
+	}
+
+	.col-5{
+		max-width:46%;
+	}
+
+	#suggestions hr{
+		padding:0;
+		margin:0;
+		margin-bottom:5px;
+	}
+
+	tbody tr:hover{
+		cursor: pointer;
+		background-color: #eee;
+	}
+
+	.side-menu-items{
+		cursor:pointer;
+	}
+
+	a{
+		color:#000;
+		cursor:pointer;
+	}
+
+	.nav-item{
+		padding:0 37px;
+	}
+
+	.navbar .dropdown-menu {
+	    position: absolute!important;
+	    margin-top: 0;
+	    top: 4em;
+	    left: 109em;
+	}
+
+	.nav-item .nav-link i{
+		padding-left:10px;
+	}
+
+	h3{
+		font-size:18px;
+	}
+
+	h4{
+		font-size: 16px;
+	}
+
+	.col-12{
+		margin:0;
+		padding:0;
+	}
+
+	.icontext{
+		margin-top: 10px;
+	}
+
+	ul .nav-link .fa{
+		padding-left: 20px;
+	}
+
+	#sidebar-wrapper{
+		height:100vh;
+		padding:10px;
+		padding-top:15px;
+		border-right:1px solid #eee;
+		overflow: hidden;
+	}
+
+	#sidebar-wrapper h4{
+		font-size:14px;
+		padding:15px 10px;
+		font-weight:500;
+		border-bottom:solid 1px #ddd
+	}
+
+	#sidebar-wrapper .side-menu-items{
+		padding: 5px 0;
+	}
+
+	#sidebar-wrapper .material-icons{
+		width: 100%;
+		font-size: 20px;
+		padding: 0;
+	}
+
+	#sidebar-wrapper span{
+		font-size: 12px;
+	}
+
+	#main-wrapper{
+		height: 100vh;
+	}
+
+	#main-inside-wrapper{
+		height:81.299vh;
+		padding:20px;
+		overflow-y:hidden;
+	}
+
+	table.table td,table.table th{
+		font-size: 12px;
+	}
+
+	.col-sm-12{
+		padding:0 5px;margin: 0;
+	}
+
+	#topbar-wrapper{
+		height:100vh;padding:0;margin:0;overflow:hidden;
+	}
+
+	/*Add Asset Page*/
+
+	#main-wrapper h2{
+		padding:0px;
+		padding-top:18px;
+		font-size:24px;
+		height:8vh;
+	}
+
+	#main-wrapper hr{
+		margin:0;
+	}
+
+	#main-inside-wrapper-2{
+		height:72vh;
+		padding:0 20px;
+		overflow-y:hidden;
+	}
+
+	#main-wrapper #addCat{
+		height:70vh;
+		width:80%;
+		padding-top:20px;
+		display:none;
+	}
+
+	#main-wrapper .form-control{
+        height:40px;
+    }
+
+	#main-wrapper label{
+		font-size: 18px;
+	}
+
+	#main-wrapper #addITAsset{
+		height:70vh;
+		width:80%;
+	}
+
+	#main-wrapper #serialno-wrapper{
+		padding:0 15px;
+	}
+
+	#main-wrapper input,#main-wrapper select{
+		font-size:14px;
+	}
+
+	#main-wrapper .form-group span{
+	}
+
+	#dataTable_wrapper label{
+		font-size: 16px;
+	}
+
+	.btn{
+        margin:25px;
+        width:300px;
+        height:40px;
+        font-weight: 600;
+    }
+
+    #main-wrapper label{
+      font-size: 14px;
+    }
+
+      .card{
+        margin-bottom:10px;
+      }
+
+      div.side-menu-items.active,.nav-item.active a{
+        color:#f0a94e;
+      }
+
+      thead tr th{
+        background-color: #f0a94e;
+        color:#1f1f1f;
+        font-weight:bold;
+      }
+
+      .table-bordered{
+        border: 1px solid #eee;
+      }
+
+      tbody tr:hover{
+        cursor: pointer;
+        background-color: #eee;
+      }
+
+      tbody tr td{
+        font-weight:bold;
+      }
+
+      .pagination .page-item.active .page-link {
+        background-color: #dd3652;
+      }
+
+      .pagination .page-item.active .page-link:focus{
+        background-color: #dd3652;
+      }
+
+      .pagination .page-item.active .page-link:hover{
+        background-color: #dd3652;
+      }
+
+      #main-inside-wrapper{
+        height:81.299vh;
+        padding:20px;
+        overflow-y:hidden;
+      }
+
+     .btn.btn-primary{
+     	background-color: #f0a94e;
+     }
+
+     .btn.btn-secondary{
+     	background-color: #dd3652;
+     }
+}

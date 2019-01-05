@@ -1,0 +1,319 @@
+<div class="col-12 text-center grey lighten-3" style="margin:0;height:15vh;padding:15px 0">
+                <img src="img/egpaf.png" style="height:40px;">
+                <h3 style="padding:5px 0;font-weight:400">Asset Tracker</h3>
+                <small style="font-weight:400">Logged In As <?php echo($_COOKIE['admin']."!");?></small>
+              </div>
+
+              <div class="col-12" style="height:75vh;padding:0 15px;margin:0;overflow-y:auto;">
+                  <div class="col-12">
+                      <div  style="display:inline-flex;width:100%;margin:0;padding:10px 20px;padding-top:15px;cursor:pointer" id="menu-header-1">
+                          <h3 style="font-weight:400;font-size:18px;padding:0px 20px;width:80%">IT Asset List</h3>
+                          <i class="fa fa-angle-down" id="arrow-1" style="font-size:25px;width:20%"></i>
+                      </div><hr style="padding:0;margin:5px 0">
+
+                      <ul style="list-style:none;padding-left:35px;" id="menu-item-1">
+                          <li>
+                              <div class="side-menu-items active" style="display:inline-flex;width:100%;padding:10px 0;">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">devices_other</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">All</p>
+                              </div>
+                          </li>
+
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">wifi</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Access Point</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">blur_on</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Catridge</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">dock</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Docking Station</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">security</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Firewall</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">laptop</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Laptop</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">desktop_windows</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Monitor</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">printer</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Printer</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">videocam</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Projector</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">mic</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Recorder</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">router</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Router</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">storage</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Server</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">scanner</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Scanner</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">router</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Switch</p>
+                              </div>
+                          </li>
+                      </ul>
+
+                  </div>
+
+                  <div class="col-12">
+                      <div style="display:inline-flex;width:100%;margin:0;padding:10px 20px;cursor:pointer;" id="menu-header-2">
+                          <h3 style="font-weight:400;font-size:18px;width:100%;padding:0px 20px;width:80%">IT Pool</h3>
+                          <i class="fa fa-angle-down" id="arrow-2" style="font-size:25px;width:20%"></i>
+                      </div><hr style="padding:0;margin:5px 0">
+                      <ul style="list-style:none;padding-left:35px;display:none" id="menu-item-2">
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">note_add</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Available</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">close</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Loaned Out</p>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="side-menu-items" style="display:inline-flex;width:100%;padding:10px 0">
+                                  <i class="material-icons" style="width:25%;font-size:30px;padding-top:5px">blur_on</i>
+                                  <p style="width:80%;padding-top:10px;font-size:14px">Catridge Register</p>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="col-12">
+                      <div style="display:inline-flex;width:100%;margin:0;padding:10px 20px;cursor:pointer;" id="menu-header-3">
+                          <h3 style="font-weight:400;font-size:18px;width:100%;padding:0px 20px;width:80%">Asset Users</h3>
+                      </div><hr style="padding:0;margin:5px 0">
+                  </div>
+
+              </div>
+
+              <div class="col-12 text-center" style="height:6vh">
+                  <div class="col-12">
+                    <a href="login.php"><button class="btn btn-danger btn-block">Log Out</button></a>
+                  </div>
+
+                  <div class="col-12" style="padding:20px 10px">
+                    <p style="font-size:14px;">Copyrights Reserved @ EGPAFZIM-2018</p>
+                  </div>
+              </div>
+
+
+
+
+
+              <div class="col-5 d-flex flex-lg-row float-right" style="max-width:100%">
+                      <div class="p-2">
+                          <button type="button" class="btn btn-default mr-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add New <i class="fa fa-plus" style="padding-left:10px"></i></button>
+                          <div class="dropdown-menu text-center">
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addCatridge">Catridge</a>
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addITAssetModal">IT Pool</a>
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addITPool">Other</a>
+                          </div>
+                      </div>
+
+                      <div class="p-2">
+                          <button type="button" class="btn btn-warning mr-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Assign<i class="fas fa-arrows-alt-h" style="padding-left:10px"></i></button>
+                          <div class="dropdown-menu text-center">
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#assignTo">To</a>
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#assignFrom">From</a>
+                          </div>
+                      </div>
+
+                      <div class="p-2">
+                          <button type="button" class="btn btn-primary mr-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Export <i class="fa fa-caret-down" style="padding-left:10px"></i></button>
+                        <div class="dropdown-menu text-center">
+                          <a class="dropdown-item" href="#">CSV</a>
+                          <a class="dropdown-item" href="#">Excel</a>
+                          <a class="dropdown-item" href="#">PDF</a>
+                        </div>
+                      </div>
+                  </div>
+
+
+
+
+
+                  <table id="dataTable" table-layout="fixed" class="table table-bordered table-striped text-center" cellspacing="0" width="100%">
+            <thead class="text-center">
+                <tr>
+                <th class="th-sm"><b>Device Name</b>
+
+                </th>
+                <th class="th-sm">Category
+
+                </th>
+                <th class="th-md">BarCode
+
+                </th>
+
+                <th class="th-sm">Serial Number
+
+                </th>
+
+                <th class="th-sm">Assigned To
+
+                </th>
+                </tr>
+            </thead>
+            <tbody id="tbody1">
+                
+            </tbody>
+            </table>
+
+            <table id="dataTable3" table-layout="fixed" class="table table-bordered table-striped text-center" cellspacing="0" width="100%" style="display:none">
+            <thead class="black white-text">
+                <tr>
+                <th class="th-sm">Device Name
+
+                </th>
+                <th class="th-md">BarCode
+
+                </th>
+
+                <th class="th-sm">Serial Number
+
+                </th>
+
+                <th class="th-sm">Assigned To
+
+                </th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            </table>
+
+            <table id="dataTable2" table-layout="fixed" class="table table-bordered table-striped text-center" cellspacing="0" width="100%" style="display:none">
+            <thead class="black white-text">
+                <tr class="col-12" id="thead">
+                <th scope="col">Catridge Name
+
+                </th>
+
+                <th scope="col">Color
+
+                </th>
+
+                <th scope="col">Quantity
+
+                </th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            </table>
+
+            <table id="dataTable3" table-layout="fixed" class="table table-bordered table-striped text-center" cellspacing="0" width="100%" style="display:none">
+            <thead class="black white-text">
+            <tr>
+                <th class="th-sm">Device Name
+                </th>
+                <th class="th-md">Asset ID
+                </th>
+                <th class="th-sm">Serial Number
+                </th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <table id="dataTable4" table-layout="fixed" class="table table-bordered table-striped text-center" cellspacing="0" width="100%" style="display:none">
+            <thead class="black white-text">
+            <tr class="col-12" id="thead">
+                <th scope="col">Name
+                </th>
+                
+                <th scope="col">Catridge
+                </th>
+
+                <th scope="col">Date Given
+                </th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <table id="dataTable6" table-layout="fixed" class="table table-bordered table-striped text-center" cellspacing="0" width="100%" style="display:none">
+            <thead class="black white-text">
+            <tr class="col-12" id="thead">
+                <th scope="col">Name
+                </th>
+                
+                <th scope="col">Serial Number
+                </th>
+
+                <th scope="col">Asset ID
+                </th>
+
+                <th scope="col">Quantity
+                </th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <table id="dataTable5" table-layout="fixed" class="table table-bordered table-striped text-center" cellspacing="0" width="100%" style="display:none">
+            <thead class="black white-text">
+            <tr class="col-12" id="thead">
+                <th scope="col">Name
+                </th>
+                
+                <th scope="col">Item
+                </th>
+
+                <th scope="col">Status
+                </th>
+
+                <th scope="col">Date Given
+                </th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
