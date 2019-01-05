@@ -5,7 +5,7 @@ session_start();
   class oAuthService {
 
     private static $clientId = "ac65d9ba-1994-4b2e-ba63-bd0e2e472df1";
-    private static $clientSecret = "bxtawVMJP21}}]bhLVA415*";
+    private static $clientSecret = "***********************";
     private static $authority = "https://login.microsoftonline.com";
     private static $authorizeUrl = '/common/oauth2/authorize?client_id=%1$s&redirect_uri=%2$s&response_type=code';
     private static $tokenUrl = "/common/oauth2/token";
